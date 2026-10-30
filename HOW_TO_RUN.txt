@@ -1,0 +1,60 @@
+========================================================================
+                      CODEVA - HOW TO RUN GUIDE
+========================================================================
+
+CoDeva is a full-stack real-time collaborative code editor with AI assistance.
+
+========================================================================
+METHOD 1: THE EASIEST WAY (1-CLICK DOUBLE-CLICK)
+========================================================================
+
+1. Simply double-click on the file named:
+   
+   START_CODEVA.bat
+
+2. A black terminal window will appear and start the backend and frontend.
+3. Within 3 to 4 seconds, your web browser (Chrome, Edge, etc.) will
+   AUTOMATICALLY open to:
+
+   http://localhost:5173
+
+4. Keep the black window open while you use CoDeva.
+   When you are done, simply close the black window!
+
+
+========================================================================
+HOW TO USE CODEVA ONCE IT OPENS
+========================================================================
+
+STEP 1: Create an Account
+- On the homepage, click "Get Started" or "Sign In".
+- Click "Create an account".
+- Enter your name, email, and a password (e.g. password123).
+- Click "Register Account".
+
+STEP 2: Create a Coding Room
+- On your Dashboard, click "+ Create New Room".
+- Enter any room name (e.g. "My First Lab") and choose a language.
+- Click "Create Room".
+- You will be taken directly into the IDE!
+
+STEP 3: Test Real-Time Collaboration (Two People Coding at the Same Time)
+- Look at the top bar where it says "Room: [Your Room Name] [ROOM_ID]".
+- Copy that ROOM_ID (or click the Share button in the left sidebar to copy link).
+- Open an Incognito Window (Ctrl+Shift+N) or a different browser (Edge/Firefox).
+- Go to http://localhost:5173 and register a second account (e.g. "Bob").
+- On Bob's dashboard, click "Join Room" and paste the ROOM_ID.
+- Now look at both windows side by side!
+  - When you type in one window, the other window updates instantly!
+  - You will see each other in the "Active Members" list.
+  - You can chat with each other in the "Chat" tab on the right.
+  - You can ask the AI Assistant in the "AI" tab.
+  - You can run your code by clicking the green "Run" button at the bottom!
+
+========================================================================
+PROJECT FILE LOCATION ON YOUR COMPUTER
+========================================================================
+Your complete project source code is located at:
+C:\Users\WELCOME\.gemini\antigravity\scratch\codeva
+
+========================================================================

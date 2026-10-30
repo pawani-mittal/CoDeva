@@ -1,0 +1,30 @@
+{
+  "name": "codeva-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch --watch-path=src src/server.js",
+    "test": "node --test --test-concurrency=1 tests/auth.test.js tests/rooms.test.js tests/files.test.js tests/ai.test.js tests/execute.test.js tests/collaboration.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.9.5",
+    "nanoid": "^5.0.9",
+    "openai": "^4.85.4",
+    "socket.io": "^4.8.1",
+    "yjs": "^13.6.23"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4",
+    "supertest": "^7.0.0"
+  }
+}
